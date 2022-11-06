@@ -16,20 +16,41 @@ body {
     padding-bottom: 1rem;
     
 }
-.link-primary{
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-    color: whitesmoke
+
+.list-item{
+    display: inline;
+    padding: 0rem 1rem;
+    
 }
 .link {
+    
     text-decoration: none;
     padding: auto;
+    font-size: x-large;
 
 }
-.link-secondary
-{
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border:1px solid var(--primary-color);
+
+.hr{
+    margin: 2rem 0rem;
+
+}
+.navbar{
+    background-color: var(--primary-color);
+    color:rgb(17, 17, 17);
+    padding: 1 rem;
+    font-weight: bold;
+    border-bottom-left-radius: 1rem;
+    
+}
+.navbar .link {
+    color: white;
+
+}
+.navbar .nav-pills{
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+.navbar .link-active {
+    font-weight:bold;
 }
