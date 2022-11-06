@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #1ED0A1;
+    --off-white: #e2e8f0;
 
 
 
@@ -11,13 +12,14 @@ body {
     font-family: 'PT Serif', serif;
 }
 .container{
-    padding-left :1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 0rem 1rem;
     
 }
-
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .list-item{
     display: inline;
     padding: 0rem 1rem;
@@ -55,4 +57,40 @@ body {
 .navbar  .active {
     font-weight:bold;
     color: black;
+}
+.hero{
+    text-align: center;
+    font-size: large;
+    color:grey;
+
+}
+.section{
+    padding: 2rem;
+}
+.section h2{
+    text-align: center;
+    
+    color:black;
+   
+}
+.ow{
+background-color: var(--off-white);
+}
+
+.container-center{
+    max-width: 300px;
+    margin:auto;
+    text-align: center;
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:black;
+    border-top-left-radius: 1rem;
+
+}
+.footer .link{
+    color: white;
+    display: inline;
 }
