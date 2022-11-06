@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+:root {
+    --primary-color: rgb(22, 216, 151);
+
+
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+.container{
+    padding-left :1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    color: whitesmoke
+}
+.link {
+    text-decoration: none;
+    padding: auto;
+
+}
+.link-secondary
+{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color);
+}
