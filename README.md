@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Shalini portfolio
 Hello,Welcome to my portfolio.
 For now,I know 
